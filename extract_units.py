@@ -202,7 +202,7 @@ class SylBoostFeatureReader:
         # clusters_with_times: list of length b, each item is clusters and boundaries. Clusters has 3 rows.
         #   # 0th row: KMeans+Agglom Cluster. 1st row: start boundary idx (inclusive). 2nd row: end boundary idx (exclusive).
 
-        features = self.d2v2_model(x, mode=None, mask=False, features_only=True, remove_extra_tokens=True, out_layer=-2)['x']
+        features = self.d2v2_model(x.half(), mode=None, mask=False, features_only=True, remove_extra_tokens=True, out_layer=-2)['x']
         result = {
             'features': features,
             'clusters_with_times': [],
