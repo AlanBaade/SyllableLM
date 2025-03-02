@@ -12,7 +12,7 @@ import json
 from typing import Union
 from pathlib import Path
 
-from textless.checkpoint_manager import CHECKPOINT_MANAGER
+from ..checkpoint_manager import CHECKPOINT_MANAGER
 
 
 class CodeHiFiGANVocoder(nn.Module):
