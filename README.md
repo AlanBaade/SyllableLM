@@ -3,7 +3,9 @@ Official Public Code for "SyllableLM: Learning Coarse Semantic Units for Speech 
 
 Paper: [https://arxiv.org/abs/2410.04029](https://arxiv.org/abs/2410.04029)
 
-In submission to ICLR 2025
+ICLR 2025
+
+[Demo Audios](https://syllablelmanonymous.github.io/SyllableLMAnonymous/)
 
 
 ## Setup:
